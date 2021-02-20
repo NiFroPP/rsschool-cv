@@ -1,1 +1,1 @@
-# https://nifropp.github.io/rsschool-cv/cv
+https://nifropp.github.io/rsschool-cv/cv
