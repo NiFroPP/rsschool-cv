@@ -9,7 +9,7 @@ Nick Frolov
 
 About me
 ---------------
-*My goal* is to become a JS Front-end developer. </br>
+*My goal* is to become a JS Front-end developer.</br>
 *My priorities* are theory and practice in JS, HTML, CSS.
 
 Skills
@@ -46,6 +46,6 @@ Education
 + book Eloquent JavaScript 3rd edition (2018
 + book Learn Java Script
  
- English
- -------------
- Unfortunately my english is weak A2
+English
+--------------
+Unfortunately my english is weak A2
