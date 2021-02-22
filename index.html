@@ -52,48 +52,50 @@
             <h2>About me</h2>
             <p>My goal is to become a JS Front-end developer.</p>
             <p>My priorities are theory and practice in JS, HTML, CSS.</p>
-            <section>
+            <section class="main__section">
                 <h2>Skills</h2>
-                <ul>
+                <ul class="main__ul">
                     <li>JS</li>
                     <li>HTML, CSS</li>
-                    <li>basics framework React, Phaser</li>
+                    <li>basics React, Phaser</li>
                     <li>Git</li>
                     <li>webpack</li>
                     <li>BEM</li>
                     <li>Figma</li>
                 </ul>
             </section>
-            <section>
+            <section class="main__section">
                 <h2>Code examples</h2>
-                <code>
+                <pre><code class="main__code">
                     const polindrome = str => {
                         str = str.toLowerCase();
                         return str === str.split('').reverse().join('');
                       }
-                </code>
+                </code></pre>
             </section>
-            <section>
+            <section class="main__section">
                 <h2>Experience</h2>
                 <p>Have an experience in building simple web applications.</p>
-                <ul>
+                <ul class="main__ul">
                     <li>
-                        <a href="https://rolling-scopes-school.github.io/nifropp-JS2020Q3/rsclone/" target="_blank">
+                        <a class="main__ul_li_a"
+                            href="https://rolling-scopes-school.github.io/nifropp-JS2020Q3/rsclone/" target="_blank">
                             nifropp-JS2020Q3/rsclone</a>
                     </li>
-                    <li><a href="https://rolling-scopes-school.github.io/nifropp-JS2020Q3/covid-dashboard/"
+                    <li><a class="main__ul_li_a"
+                            href="https://rolling-scopes-school.github.io/nifropp-JS2020Q3/covid-dashboard/"
                             target="_blank">
                             nifropp-JS2020Q3/covid-dashboard</a></li>
                 </ul>
             </section>
-            <section>
+            <section class="main__section">
                 <h2>Education</h2>
-                <ul>
+                <ul class="main__ul">
                     <li>Belarusian State University of Informatics and Radioelectronics (2005 - 2011)</li>
                     <li>Rolling-scopes-school JS2020Q3</li>
                     <li>
                         <span>books on JavaScript:</span>
-                        <ul>
+                        <ul class="main__ul">
                             <li>Head First HTML5 Programming: Building Web Apps with JavaScript</li>
                             <li>Head First JavaScript Programming: A Brain-Friendly Guide</li>
                             <li>Eloquent JavaScript 3rd edition (2018)</li>
@@ -102,14 +104,42 @@
                     </li>
                 </ul>
             </section>
-            <section>
+            <section class="main__section">
                 <h2>English</h2>
-                <p>Unfortunately my english is weak A2</p>
+                <p>A1+, next to A2</p>
             </section>
         </article>
     </main>
 
     <footer class="footer wrapper">
+        <nav>
+            <ul class="footer__ul">
+                <li class="nav__li">
+                    <a href="https://mail.google.com/mail/" target="_blank">
+                        <img class="nav__li_img" src="/assets/email-open.png" alt=""></a>
+                    <span class="nav__li_span">frolov.nick0@gmail.com</span>
+                </li>
+                <li class="nav__li">
+                    <img class="nav__li_img" src="/assets/phone-disconnected.png" alt="">
+                    <span class="nav__li_span">+375-29-5876337</span>
+                </li>
+                <li class="nav__li">
+                    <a href="https://web.telegram.org/#/login" target="_blank">
+                        <img class="nav__li_img" src="/assets/telegram-app.png" alt=""></a>
+                    <span class="nav__li_span">@NiFroPP</span>
+                </li>
+                <li class="nav__li">
+                    <a href="https://www.linkedin.com/in/nick-frolov-11a6b61bb/" target="_blank">
+                        <img class="nav__li_img" src="/assets/linkedin-circled.png" alt=""></a>
+                    <span class="nav__li_span">Nick Frolov</span>
+                </li>
+                <li class="nav__li">
+                    <a href="https://github.com/NiFroPP" target="_blank">
+                        <img class="nav__li_img" src="/assets/github.png" alt=""></a>
+                    <span class="nav__li_span">@NiFroPP</span>
+                </li>
+            </ul>
+        </nav>
 
     </footer>
 </body>
