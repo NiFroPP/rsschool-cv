@@ -6,44 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap"
+        rel="stylesheet">
     <title>RSSchool-CV</title>
 </head>
 
-<body>
+<body class="body">
 
-    <header>
-        <h1>Nick Frolov</h1>
-        <img src="/assets/photo.jpg" alt="photo">
-        <nav>
+    <header class="header wrapper">
+        <h1 class="header__h1">Nick Frolov</h1>
+        <img class="header__photo" src="/assets/photo.jpg" alt="photo">
+        <nav class="nav">
             <ul>
-                <li>
+                <li class="nav__li">
                     <a href="https://mail.google.com/mail/" target="_blank">
-                        <img src="/assets/secured-letter--v2.gif" alt=""></a>
-                    <span>frolov.nick0@gmail.com</span>
+                        <img class="nav__li_img" src="/assets/email-open.png" alt=""></a>
+                    <span class="nav__li_span">frolov.nick0@gmail.com</span>
                 </li>
-                <li>
-                    <img src="/assets/phone-ringing--v2.gif" alt="">
-                    <span>+375-29-5876337</span>
+                <li class="nav__li">
+                    <img class="nav__li_img" src="/assets/phone-disconnected.png" alt="">
+                    <span class="nav__li_span">+375-29-5876337</span>
                 </li>
-                <li>
+                <li class="nav__li">
                     <a href="https://web.telegram.org/#/login" target="_blank">
-                        <img src="/assets/telegram-app.png" alt=""></a>
-                    <span>@NiFroPP</span>
+                        <img class="nav__li_img" src="/assets/telegram-app.png" alt=""></a>
+                    <span class="nav__li_span">@NiFroPP</span>
                 </li>
-                <li>
+                <li class="nav__li">
                     <a href="https://www.linkedin.com/in/nick-frolov-11a6b61bb/" target="_blank">
-                        <img src="/assets/linkedin-circled--v4.gif" alt=""></a>
+                        <img class="nav__li_img" src="/assets/linkedin-circled.png" alt=""></a>
+                    <span class="nav__li_span">Nick Frolov</span>
                 </li>
-                <li>
+                <li class="nav__li">
                     <a href="https://github.com/NiFroPP" target="_blank">
-                        <img src="/assets/github.png" alt=""></a>
-                    <span>@NiFroPP</span>
+                        <img class="nav__li_img" src="/assets/github.png" alt=""></a>
+                    <span class="nav__li_span">@NiFroPP</span>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="main wrapper">
         <article>
             <h2>About me</h2>
             <p>My goal is to become a JS Front-end developer.</p>
@@ -73,8 +77,13 @@
                 <h2>Experience</h2>
                 <p>Have an experience in building simple web applications.</p>
                 <ul>
-                    <li>https://rolling-scopes-school.github.io/nifropp-JS2020Q3/rsclone/</li>
-                    <li>https://rolling-scopes-school.github.io/nifropp-JS2020Q3/covid-dashboard/</li>
+                    <li>
+                        <a href="https://rolling-scopes-school.github.io/nifropp-JS2020Q3/rsclone/" target="_blank">
+                            nifropp-JS2020Q3/rsclone</a>
+                    </li>
+                    <li><a href="https://rolling-scopes-school.github.io/nifropp-JS2020Q3/covid-dashboard/"
+                            target="_blank">
+                            nifropp-JS2020Q3/covid-dashboard</a></li>
                 </ul>
             </section>
             <section>
@@ -83,7 +92,7 @@
                     <li>Belarusian State University of Informatics and Radioelectronics (2005 - 2011)</li>
                     <li>Rolling-scopes-school JS2020Q3</li>
                     <li>
-                        <p>books on JavaScript:</p>
+                        <span>books on JavaScript:</span>
                         <ul>
                             <li>Head First HTML5 Programming: Building Web Apps with JavaScript</li>
                             <li>Head First JavaScript Programming: A Brain-Friendly Guide</li>
@@ -100,34 +109,7 @@
         </article>
     </main>
 
-    <footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://mail.google.com/mail/" target="_blank">
-                        <img src="/assets/secured-letter--v2.gif" alt=""></a>
-                    <span>frolov.nick0@gmail.com</span>
-                </li>
-                <li>
-                    <img src="/assets/phone-ringing--v2.gif" alt="">
-                    <span>+375-29-5876337</span>
-                </li>
-                <li>
-                    <a href="https://web.telegram.org/#/login" target="_blank">
-                        <img src="/assets/telegram-app.png" alt=""></a>
-                    <span>@NiFroPP</span>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/nick-frolov-11a6b61bb/" target="_blank">
-                        <img src="/assets/linkedin-circled--v4.gif" alt=""></a>
-                </li>
-                <li>
-                    <a href="https://github.com/NiFroPP" target="_blank">
-                        <img src="/assets/github.png" alt=""></a>
-                    <span>@NiFroPP</span>
-                </li>
-            </ul>
-        </nav>
+    <footer class="footer wrapper">
 
     </footer>
 </body>
