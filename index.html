@@ -1,147 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap"
-        rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>RSSchool-CV</title>
-</head>
+  </head>
 
-<body class="body">
-
+  <body class="body">
     <header class="header wrapper">
-        <h1 class="header__h1">Nick Frolov</h1>
-        <img class="header__photo" src="./assets/photo.jpg" alt="photo">
-        <nav class="nav">
-            <ul>
-                <li class="nav__li">
-                    <a href="https://mail.google.com/mail/" target="_blank">
-                        <img class="nav__li_img" src="./assets/email-open.png" alt=""></a>
-                    <span class="nav__li_span">frolovnick0@gmail.com</span>
-                </li>
-                <li class="nav__li">
-                    <img class="nav__li_img" src="./assets/phone-disconnected.png" alt="">
-                    <span class="nav__li_span">+375-29-5876337</span>
-                </li>
-                <li class="nav__li">
-                    <a href="https://web.telegram.org/#/login" target="_blank">
-                        <img class="nav__li_img" src="./assets/telegram-app.png" alt=""></a>
-                    <span class="nav__li_span">@NiFroPP</span>
-                </li>
-                <li class="nav__li">
-                    <a href="https://www.linkedin.com/in/nick-frolov-11a6b61bb/" target="_blank">
-                        <img class="nav__li_img" src="./assets/linkedin-circled.png" alt=""></a>
-                    <span class="nav__li_span">Nick Frolov</span>
-                </li>
-                <li class="nav__li">
-                    <a href="https://github.com/NiFroPP" target="_blank">
-                        <img class="nav__li_img" src="./assets/github.png" alt=""></a>
-                    <span class="nav__li_span">@NiFroPP</span>
-                </li>
-            </ul>
-        </nav>
+      <h1 class="header__h1">Nick Frolov</h1>
+      <img class="header__photo" src="./assets/photo.jpg" alt="photo" />
+      <nav class="nav">
+        <ul>
+          <li class="nav__li">
+            <a href="https://mail.google.com/mail/" target="_blank">
+              <img class="nav__li_img" src="./assets/email-open.png" alt=""
+            /></a>
+            <span class="nav__li_span">frolovnick0@gmail.com</span>
+          </li>
+          <li class="nav__li">
+            <img class="nav__li_img" src="./assets/phone-disconnected.png" alt="" />
+            <span class="nav__li_span">+375-29-5876337</span>
+          </li>
+          <li class="nav__li">
+            <a href="https://web.telegram.org/#/login" target="_blank">
+              <img class="nav__li_img" src="./assets/telegram-app.png" alt=""
+            /></a>
+            <span class="nav__li_span">@NiFroPP</span>
+          </li>
+          <li class="nav__li">
+            <a href="https://www.linkedin.com/in/nick-frolov-11a6b61bb/" target="_blank">
+              <img class="nav__li_img" src="./assets/linkedin-circled.png" alt=""
+            /></a>
+            <span class="nav__li_span">Nick Frolov</span>
+          </li>
+          <li class="nav__li">
+            <a href="https://github.com/NiFroPP" target="_blank">
+              <img class="nav__li_img" src="./assets/github.png" alt=""
+            /></a>
+            <span class="nav__li_span">@NiFroPP</span>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main class="main wrapper">
-        <article>
-            <h2>About me</h2>
-            <p>My goal is to become a JS Front-end developer.</p>
-            <p>My priorities are theory and practice in JS, HTML, CSS.</p>
-            <section class="main__section">
-                <h2>Skills</h2>
-                <ul class="main__ul">
-                    <li>JS</li>
-                    <li>HTML, CSS</li>
-                    <li>basics React, Phaser</li>
-                    <li>Git</li>
-                    <li>webpack</li>
-                    <li>BEM</li>
-                    <li>Figma</li>
-                </ul>
-            </section>
-            <section class="main__section">
-                <h2>Code examples</h2>
-                <pre><code class="main__code">
+      <article>
+        <h2>About me</h2>
+        <p>My goal is to become a JS Front-end developer.</p>
+        <p>My priorities are theory and practice in JS, HTML, CSS.</p>
+        <section class="main__section">
+          <h2>Skills</h2>
+          <ul class="main__ul">
+            <li>JS, TS</li>
+            <li>HTML, CSS</li>
+            <li>React, Phaser</li>
+            <li>Git</li>
+            <li>webpack</li>
+            <li>Redux</li>
+            <li>BEM</li>
+            <li>Figma</li>
+          </ul>
+        </section>
+        <section class="main__section">
+          <h2>Code examples</h2>
+          <pre><code class="main__code">
                     const polindrome = str => {
                         str = str.toLowerCase();
                         return str === str.split('').reverse().join('');
                       }
                 </code></pre>
-            </section>
-            <section class="main__section">
-                <h2>Experience</h2>
-                <p>Have an experience in building simple web applications.</p>
-                <ul class="main__ul">
-                    <li>
-                        <a class="main__ul_li_a"
-                            href="https://rolling-scopes-school.github.io/nifropp-JS2020Q3/rsclone/" target="_blank">
-                            nifropp-JS2020Q3/rsclone</a>
-                    </li>
-                    <li><a class="main__ul_li_a"
-                            href="https://rolling-scopes-school.github.io/nifropp-JS2020Q3/covid-dashboard/"
-                            target="_blank">
-                            nifropp-JS2020Q3/covid-dashboard</a></li>
-                </ul>
-            </section>
-            <section class="main__section">
-                <h2>Education</h2>
-                <ul class="main__ul">
-                    <li>Belarusian State University of Informatics and Radioelectronics (2005 - 2011)</li>
-                    <li>Rolling-scopes-school JS2020Q3</li>
-                    <li>
-                        <span>books on JavaScript:</span>
-                        <ul class="main__ul">
-                            <li>Head First HTML5 Programming: Building Web Apps with JavaScript</li>
-                            <li>Head First JavaScript Programming: A Brain-Friendly Guide</li>
-                            <li>Eloquent JavaScript 3rd edition (2018)</li>
-                            <li>Learn Java Script</li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-            <section class="main__section">
-                <h2>English</h2>
-                <p>A1+, next to A2</p>
-            </section>
-        </article>
+        </section>
+        <section class="main__section">
+          <h2>Experience</h2>
+          <p>Have an experience in building simple web applications.</p>
+          <ul class="main__ul">
+            <li>
+              <a
+                class="main__ul_li_a"
+                href="https://rolling-scopes-school.github.io/nifropp-JS2020Q3/rsclone/"
+                target="_blank"
+              >
+                nifropp-JS2020Q3/rsclone</a
+              >
+            </li>
+            <li>
+              <a
+                class="main__ul_li_a"
+                href="https://rolling-scopes-school.github.io/nifropp-JS2020Q3/covid-dashboard/"
+                target="_blank"
+              >
+                nifropp-JS2020Q3/covid-dashboard</a
+              >
+            </li>
+            <li>
+              <a
+                class="main__ul_li_a"
+                href="https://rolling-scopes-school.github.io/nifropp-JSFE2021Q1/photo-filter/"
+                target="_blank"
+              >
+                nifropp-JS2021Q1/photo-filter</a
+              >
+            </li>
+            <li>
+              <a
+                class="main__ul_li_a"
+                href="https://rolling-scopes-school.github.io/nifropp-JSFE2021Q1/online-zoo/pages/landing/"
+                target="_blank"
+              >
+                nifropp-JS2021Q1/online-zoo</a
+              >
+            </li>
+            <li>
+              <a
+                class="main__ul_li_a"
+                href="https://rolling-scopes-school.github.io/nifropp-JSFE2021Q1/match-match-game/"
+                target="_blank"
+              >
+                nifropp-JS2021Q1/match-match-game</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="main__section">
+          <h2>Education</h2>
+          <ul class="main__ul">
+            <li>Belarusian State University of Informatics and Radioelectronics (2005 - 2011)</li>
+            <li>Rolling-scopes-school JS2020Q3</li>
+            <li>
+              Rolling-scopes-school JS2021Q1:
+              <a class="main__ul_li_a" href="https://app.rs.school/certificate/8kz2va6a" target="_blank">Certificate</a>
+            </li>
+            <li>
+              <span>books on JavaScript:</span>
+              <ul class="main__ul">
+                <li>Head First HTML5 Programming: Building Web Apps with JavaScript</li>
+                <li>Head First JavaScript Programming: A Brain-Friendly Guide</li>
+                <li>Eloquent JavaScript 3rd edition (2018)</li>
+                <li>Learn Java Script</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="main__section">
+          <h2>English</h2>
+          <p>A2, next to A2+</p>
+        </section>
+      </article>
     </main>
 
     <footer class="footer wrapper">
-        <nav>
-            <ul class="footer__ul">
-                <li class="nav__li">
-                    <a href="https://mail.google.com/mail/" target="_blank">
-                        <img class="nav__li_img" src="./assets/email-open.png" alt=""></a>
-                    <span class="nav__li_span">frolovnick0@gmail.com</span>
-                </li>
-                <li class="nav__li">
-                    <img class="nav__li_img" src="./assets/phone-disconnected.png" alt="">
-                    <span class="nav__li_span">+375-29-5876337</span>
-                </li>
-                <li class="nav__li">
-                    <a href="https://web.telegram.org/#/login" target="_blank">
-                        <img class="nav__li_img" src="./assets/telegram-app.png" alt=""></a>
-                    <span class="nav__li_span">@NiFroPP</span>
-                </li>
-                <li class="nav__li">
-                    <a href="https://www.linkedin.com/in/nick-frolov-11a6b61bb/" target="_blank">
-                        <img class="nav__li_img" src="./assets/linkedin-circled.png" alt=""></a>
-                    <span class="nav__li_span">Nick Frolov</span>
-                </li>
-                <li class="nav__li">
-                    <a href="https://github.com/NiFroPP" target="_blank">
-                        <img class="nav__li_img" src="./assets/github.png" alt=""></a>
-                    <span class="nav__li_span">@NiFroPP</span>
-                </li>
-            </ul>
-        </nav>
-
+      <nav>
+        <ul class="footer__ul">
+          <li class="nav__li">
+            <a href="https://mail.google.com/mail/" target="_blank">
+              <img class="nav__li_img" src="./assets/email-open.png" alt=""
+            /></a>
+            <span class="nav__li_span">frolovnick0@gmail.com</span>
+          </li>
+          <li class="nav__li">
+            <img class="nav__li_img" src="./assets/phone-disconnected.png" alt="" />
+            <span class="nav__li_span">+375-29-5876337</span>
+          </li>
+          <li class="nav__li">
+            <a href="https://web.telegram.org/#/login" target="_blank">
+              <img class="nav__li_img" src="./assets/telegram-app.png" alt=""
+            /></a>
+            <span class="nav__li_span">@NiFroPP</span>
+          </li>
+          <li class="nav__li">
+            <a href="https://www.linkedin.com/in/nick-frolov-11a6b61bb/" target="_blank">
+              <img class="nav__li_img" src="./assets/linkedin-circled.png" alt=""
+            /></a>
+            <span class="nav__li_span">Nick Frolov</span>
+          </li>
+          <li class="nav__li">
+            <a href="https://github.com/NiFroPP" target="_blank">
+              <img class="nav__li_img" src="./assets/github.png" alt=""
+            /></a>
+            <span class="nav__li_span">@NiFroPP</span>
+          </li>
+        </ul>
+      </nav>
     </footer>
-</body>
-
+  </body>
 </html>

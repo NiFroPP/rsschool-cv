@@ -1,120 +1,125 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .body {
-    width: 100%;
-    background: linear-gradient(90deg, 
-        rgba(16,112,129) 0%, 
-        rgba(140,200,218) 50%, 
-        rgba(0,212,255) 100%);
-    font-family: 'Roboto', sans-serif;
-    color: #0f0f0f
+  width: 100%;
+  background: linear-gradient(90deg, rgba(16, 112, 129) 0%, rgba(140, 200, 218) 50%, rgba(0, 212, 255) 100%);
+  font-family: "Roboto", sans-serif;
+  color: #0f0f0f;
 }
 
 .wrapper {
-    width: 70%;
-    margin: 10px auto;
+  width: 70%;
+  margin: 10px auto;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgba(15, 15, 15, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(15, 15, 15, 0.5);
 }
-    .header__h1 {
-        font-size: 3rem;
-        font-weight: 400;
-        margin: auto 0;
-        border-bottom: 2px solid #0f0f0f;
-    }
-    .header__photo {
-        width: 192px;
-        height: 256px;
-        border-radius: 30px;
-    }
-    .header__photo:hover {
-        box-shadow: 5px -5px 5px 0px rgba(0, 0, 0, 0.3), 
-        -5px 5px 5px 0px rgba(0, 0, 0, 0.3);    }
-    .nav {
-        margin: auto 0;
-    }
-        .nav__li {
-            list-style-type: none;
-            margin-top: 0.5rem;
-        }
-            .nav__li_img {
-                width: 2rem;
-                height: 2rem;
-            }
-            .nav__li_img:hover {
-                cursor: pointer;
-                animation: 0.1s tremor ease-out infinite;
-            }
-            .nav__li_span {
-                font-size: 1.2rem;
-                position: relative;
-                bottom: 10px;
-            }
+.header__h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin: auto 0;
+  border-bottom: 2px solid #0f0f0f;
+}
+.header__photo {
+  width: 192px;
+  height: 256px;
+  border-radius: 30px;
+}
+.header__photo:hover {
+  box-shadow: 5px -5px 5px 0px rgba(0, 0, 0, 0.3), -5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.nav {
+  margin: auto 0;
+}
+.nav__li {
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+.nav__li_img {
+  width: 2rem;
+  height: 2rem;
+}
+.nav__li_img:hover {
+  cursor: pointer;
+  animation: 0.1s tremor ease-out infinite;
+}
+.nav__li_span {
+  font-size: 1.2rem;
+  position: relative;
+  bottom: 10px;
+}
 
 .main__section {
-    margin: 1rem auto;
+  margin: 1rem auto;
 }
 
 .main__ul {
-    list-style-position: inside;
+  list-style-position: inside;
 }
-    .main__ul_li_a {
-        text-decoration: none;
-        color: #0f0f0f;
-    }
-    .main__code {
-        color: #eee;
-        white-space: pre-line;
-    }
+.main__ul_li_a {
+  text-decoration: none;
+  color: #0f0f0f;
+
+  transition: all 0.5s;
+}
+.main__ul_li_a:hover {
+  text-decoration: none;
+  color: #515151;
+}
+
+.main__code {
+  color: #eee;
+  white-space: pre-line;
+}
 
 .footer {
-    border-top: 1px solid #0f0f0f;
-    opacity: 0.5;
+  border-top: 1px solid #0f0f0f;
+  opacity: 0.5;
 }
 .footer__ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-flow: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
 }
 
 @keyframes tremor {
-    0%, 25% {
-        left: -1px;
-        top:-1px;
-        transform: translateX(-4%);
-        transform: translateX(-4%);
-    }
-    50%, 100% {
-        left: 1px;
-        top: 1px;
-        transform: translateX(4%);
-        transform: translateX(4%);
-    }
+  0%,
+  25% {
+    left: -1px;
+    top: -1px;
+    transform: translateX(-4%);
+    transform: translateX(-4%);
+  }
+  50%,
+  100% {
+    left: 1px;
+    top: 1px;
+    transform: translateX(4%);
+    transform: translateX(4%);
+  }
 }
-
 
 @media (max-width: 1000px) {
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-        .header__photo {
-            margin: 0.5rem;
-        }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__photo {
+    margin: 0.5rem;
+  }
 }
 @media (max-width: 768px) {
-    .nav__li_span {
-        font-size: 1rem;
-    }
+  .nav__li_span {
+    font-size: 1rem;
+  }
 }
